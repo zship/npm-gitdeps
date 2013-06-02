@@ -1,0 +1,19 @@
+{
+	"name": "npm-gitdeps",
+	"description": "Pulls dependencies from git repositories even if they don't support NPM",
+	"version": "0.1.1",
+	"author": "Zach Shipley <zach@zachshipley.com>",
+	"license": "MIT",
+	"dependencies": {
+		"tar": "0.1.x",
+		"shelljs": "0.1.x",
+		"temp": "0.5.x",
+		"semver": "1.x",
+		"colors": "0.6.x",
+		"deferreds": "1.x"
+	},
+	"keywords": [
+		"npm",
+		"git"
+	]
+}

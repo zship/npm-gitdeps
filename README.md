@@ -1,4 +1,8 @@
 npm-gitdeps
-===========
+=============
 
-Include plain git repositories (without a package.json) in your NPM dependencies
+License
+-------
+
+Released under the [MIT
+License](http://www.opensource.org/licenses/mit-license.php).

@@ -1,0 +1,32 @@
+{
+	"globals": {
+		"define": false
+	},
+
+	"node": true,
+	"devel": true,
+
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"forin": true,
+	"immed": true,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"noempty": true,
+	"nonew": true,
+	"quotmark": "single",
+	"undef": true,
+	"unused": "vars",
+	"strict": true,
+	"trailing": true,
+
+	"eqnull": true,
+	"es5": true,
+	"expr": true,
+	"laxbreak": true,
+	"loopfunc": true,
+	"smarttabs": true
+
+}
