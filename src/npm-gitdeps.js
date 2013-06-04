@@ -22,14 +22,15 @@ var run = function() {
 	}
 
 	var pkg = JSON.parse(fs.readFileSync(pkgFile).toString());
+	var deps = pkg.gitDependencies;
 
-	if (!pkg.gitCloneDependencies) {
+	if (!deps) {
 		return;
 	}
 
-	new Chainable(Object.keys(pkg.gitCloneDependencies))
+	new Chainable(Object.keys(deps))
 		.map(function gatherMetadata(repo) {
-			var treeish = pkg.gitCloneDependencies[repo];
+			var treeish = deps[repo];
 			var name = repo.split('/').pop().trim().replace(/\.git$/, '');
 			var dest = path.resolve(projectDir, 'components', name);
 
